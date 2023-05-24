@@ -1,0 +1,75 @@
+:root {
+
+    --principal:red;
+    --background: white;
+    --second-color: orange;
+
+}
+
+body {
+
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*barra de navegacion*/
+.navbar {
+
+    background-color: var(--second-color) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 9;
+
+}
+
+.img_conteiner {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.navbar-logo a {
+
+    color: var(--background);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-menu {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-display: flex;
+    
+}
+
+.navbar-menu li {
+
+    margin-left: 15px;
+    transition: 2s;
+
+}
+
+.navbar-menu li a {
+
+    color: var(--background);
+    text-decoration: none;
+    font-size:1rem;
+    transition: 5s;
+
+}
+
+.navbar-menu li a:hover {
+
+    color: var(--principal);
+
+}
+
